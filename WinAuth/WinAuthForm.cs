@@ -933,14 +933,14 @@ namespace WinAuth
 			//
 			addAuthenticatorMenu.Items.Add(new ToolStripSeparator());
 			//
-			subitem = new ToolStripMenuItem();
-			subitem.Text = strings.MenuImportText;
-			subitem.Name = "importTextMenuItem";
-			subitem.Image = new Bitmap(Assembly.GetExecutingAssembly().GetManifestResourceStream("WinAuth.Resources.TextIcon.png"));
-			subitem.ImageAlign = ContentAlignment.MiddleLeft;
-			subitem.ImageScaling = ToolStripItemImageScaling.SizeToFit;
-			subitem.Click += importTextMenu_Click;
-			addAuthenticatorMenu.Items.Add(subitem);
+			//subitem = new ToolStripMenuItem();
+			//subitem.Text = strings.MenuImportText;
+			//subitem.Name = "importTextMenuItem";
+			//subitem.Image = new Bitmap(Assembly.GetExecutingAssembly().GetManifestResourceStream("WinAuth.Resources.TextIcon.png"));
+			//subitem.ImageAlign = ContentAlignment.MiddleLeft;
+			//subitem.ImageScaling = ToolStripItemImageScaling.SizeToFit;
+			//subitem.Click += importTextMenu_Click;
+			//addAuthenticatorMenu.Items.Add(subitem);
 		}
 
 		/// <summary>
