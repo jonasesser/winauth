@@ -13,7 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
-    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <AssemblyVersion>3.6.2.31</AssemblyVersion>
     <PrimaryVersionType>AssemblyVersionAttribute</PrimaryVersionType>
     <AssemblyInfoFilePath>Properties\AssemblyInfo.cs</AssemblyInfoFilePath>
@@ -24,17 +24,16 @@
     <AssemblyFileVersionSettings>None.None.IncrementOnDemandWithReset.Increment</AssemblyFileVersionSettings>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PublishUrl>f:\cdm\Projects\WinAuth\winauth.com\downloads\</PublishUrl>
+    <PublishUrl>D:\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Web</InstallFrom>
-    <UpdateEnabled>true</UpdateEnabled>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>true</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>false</MapFileExtensions>
-    <InstallUrl>https://winauth.com/downloads/</InstallUrl>
     <UpdateUrl>https://winauth.com/downloads/</UpdateUrl>
     <SupportUrl>https://winauth.com</SupportUrl>
     <ErrorReportUrl>https://code.google.com/p/winauth/issues/list</ErrorReportUrl>
@@ -42,7 +41,6 @@
     <ProductName>WinAuth</ProductName>
     <PublisherName>Colin Mackie</PublisherName>
     <MinimumRequiredVersion>3.0.10.0</MinimumRequiredVersion>
-    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>3</ApplicationRevision>
@@ -598,6 +596,8 @@
     <EmbeddedResource Include="Resources\WordpressWhiteIcon.png" />
     <EmbeddedResource Include="Resources\ChromeIcon.png" />
     <EmbeddedResource Include="Resources\OktaVerifyAuthenticatorIcon.png" />
+    <None Include="Resources\DE.png" />
+    <None Include="Resources\GB.png" />
     <Content Include="winauth.ico" />
   </ItemGroup>
   <ItemGroup>

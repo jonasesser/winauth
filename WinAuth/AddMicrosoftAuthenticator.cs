@@ -62,7 +62,7 @@ namespace WinAuth
 		private void AddMicrosoftAuthenticator_Load(object sender, EventArgs e)
 		{
 			nameField.Text = this.Authenticator.Name;
-			codeField.SecretMode = true;
+			codeField.SecretMode = false;
 		}
 
 		/// <summary>
@@ -85,7 +85,7 @@ namespace WinAuth
 
 		private void allowCopyButton_CheckedChanged(object sender, EventArgs e)
 		{
-			codeField.SecretMode = !allowCopyButton.Checked;
+            codeField.SecretMode = false;// !allowCopyButton.Checked;
 		}
 
 		/// <summary>
@@ -186,7 +186,7 @@ namespace WinAuth
 		/// <param name="e"></param>
 		private void icon1_Click(object sender, EventArgs e)
 		{
-			icon1RadioButton.Checked = true;
+			//icon1RadioButton.Checked = true;
 		}
 
 		/// <summary>
@@ -196,7 +196,7 @@ namespace WinAuth
 		/// <param name="e"></param>
 		private void icon2_Click(object sender, EventArgs e)
 		{
-			icon2RadioButton.Checked = true;
+			//icon2RadioButton.Checked = true;
 		}
 
 		/// <summary>
@@ -206,7 +206,7 @@ namespace WinAuth
 		/// <param name="e"></param>
 		private void icon3_Click(object sender, EventArgs e)
 		{
-			icon3RadioButton.Checked = true;
+			//icon3RadioButton.Checked = true;
 		}
 
 		#endregion
@@ -358,7 +358,16 @@ namespace WinAuth
 			return true;
 		}
 
-#endregion
+        #endregion
 
-	}
+        private void htmlPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void icon3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

@@ -153,6 +153,16 @@ namespace WinAuth.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DE {
+            get {
+                object obj = ResourceManager.GetObject("DE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DefianceIcon {
             get {
                 object obj = ResourceManager.GetObject("DefianceIcon", resourceCulture);
@@ -166,6 +176,16 @@ namespace WinAuth.Properties {
         internal static System.Drawing.Bitmap DiabloIcon {
             get {
                 object obj = ResourceManager.GetObject("DiabloIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GB {
+            get {
+                object obj = ResourceManager.GetObject("GB", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

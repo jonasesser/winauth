@@ -698,8 +698,8 @@ namespace WinAuth
 					Version latest = Updater.LastKnownLatestVersion;
 					if (latest != null && latest > Updater.CurrentVersion)
 					{
-						newVersionLink.Text = "New version " + latest + " available";
-						newVersionLink.Visible = true;
+						//newVersionLink.Text = "New version " + latest + " available";
+						//newVersionLink.Visible = true;
 					}
 				}
 				// spin up the autocheck thread and assign callback
@@ -1556,11 +1556,11 @@ namespace WinAuth
 			{
 			if (Updater != null && Updater.IsAutoCheck == true && latest != null && latest > Updater.CurrentVersion)
 				{
-				this.Invoke((MethodInvoker)delegate { newVersionLink.Text = "New version " + latest.ToString(3) + " available"; newVersionLink.Visible = true; });
+				//this.Invoke((MethodInvoker)delegate { newVersionLink.Text = "New version " + latest.ToString(3) + " available"; newVersionLink.Visible = true; });
 			}
 			else
 			{
-				this.Invoke((MethodInvoker)delegate { newVersionLink.Visible = false; });
+				//this.Invoke((MethodInvoker)delegate { newVersionLink.Visible = false; });
 			}
 		}
 
@@ -2795,7 +2795,9 @@ namespace WinAuth
 			}
 		}
 
+        private void htmlPanel3_Click(object sender, EventArgs e)
+        {
 
-
-  }
+        }
+    }
 }

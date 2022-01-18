@@ -117,16 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label2.Text" xml:space="preserve">
-    <value>1. Login into your Microsoft account at account.live.com.
-2. Click the Security Info option.
-3. Click "Set up two-step verification". If you don't see it, you must first verify an alternative email address.
-4. Click Next.
-5. Select the Authenticator App. You could also download MIcrosoft's Authenticator app onto your smartphone so you can set it up on both.
-6. Click "I can't see the bar code" underneath the QR code image.
-7. Enter the Secret Key in the field below:</value>
-  </data>
   <metadata name="newAuthenticatorTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <data name="htmlPanel1.Text" xml:space="preserve">
+    <value>&lt;div style="font-family:verdana;font-size: 10pt;"&gt;&lt;ol&gt;&lt;li&gt;Melden Sie sich mit Ihrem Imperial-Konto unter &lt;b&gt;portal.office.com&lt;/b&gt; an&lt;/li&gt;&lt;li&gt;Klicken Sie auf die Option &lt;b&gt;Sicherheitsinfo&lt;/b&gt; &lt;/li&gt;&lt;li&gt;Klicken Sie auf &lt;b&gt;Zweistufige Verifizierung&lt;/b&gt; einrichten" &lt;/li&gt;&lt;li&gt;Klicken Sie auf &lt;b&gt;Weiter&lt;/b&gt; &lt;/li&gt;&lt;li&gt;Wählen Sie die &lt;b&gt;Authenticator App&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Klicken Sie auf &lt;b&gt;Ich kann den Barcode nicht sehen&lt;/b&gt; unter dem QR-Code-Bild &lt;/li&gt;&lt;li&gt;Geben Sie den geheimen Schlüssel in das Feld hierunter ein und klicken Sie dann auf &lt;b&gt;Verify Authenticator&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="htmlPanel2.Text" xml:space="preserve">
+    <value>&lt;div style="font-family:verdana;font-size: 10pt;"&gt;&lt;ol&gt;&lt;li&gt;Login into your Imperial account at &lt;b&gt;portal.office.com&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Click the &lt;b&gt;Security Info option&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Set up two-step verification&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;Next&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Select the &lt;b&gt;Authenticator App&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Click &lt;b&gt;I can't see the bar code&lt;/b&gt; underneath the QR code image&lt;/li&gt;&lt;li&gt;Enter the secret key in the field below and then click &lt;b&gt;Verify Authenticator&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
 </root>
