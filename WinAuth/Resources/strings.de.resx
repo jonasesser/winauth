@@ -112,26 +112,26 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="_AboutForm_" xml:space="preserve">
-    <value>About WinAuth</value>
+    <value>Über WinAuth</value>
   </data>
   <data name="_AboutForm_aboutLabel_" xml:space="preserve">
     <value>WinAuth {0}
-Copyright {1}. Colin Mackie. All rights reserved.</value>
+Copyright {1}. Colin Mackie. Alle Rechte vorbehalten.</value>
   </data>
   <data name="_AboutForm_closeButton" xml:space="preserve">
-    <value>Close</value>
+    <value>Schließen</value>
   </data>
   <data name="_AboutForm_licenseLabel_" xml:space="preserve">
-    <value>License</value>
+    <value>Lizenz</value>
   </data>
   <data name="_AboutForm_reportButton" xml:space="preserve">
-    <value>Diagnostics...</value>
+    <value>Report...</value>
   </data>
   <data name="_AboutForm_trademarkLabel_" xml:space="preserve">
     <value>Battle.net, World of Warcraft, StarCraft, Diablo, Mists of Pandaria, and all associated logos and designs are trademarks or registered trademarks of Blizzard Entertainment.
@@ -144,46 +144,46 @@ All other trademarks are the property of their respective owners.</value>
     <value>Protection</value>
   </data>
   <data name="_ChangePasswordForm_cancelButton_" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Abbrechen</value>
   </data>
   <data name="_ChangePasswordForm_introLabel_" xml:space="preserve">
-    <value>Select how you would like to protect your authenticators. Using a password is strongly recommended, otherwise your data could be read and stolen by malware running on your computer.</value>
+    <value>Wie wollen Sie Ihre Authentifikatoren schützen? Es wird dringend empfohlen, ein Kennwort zu verwenden, da Ihre Daten sonst von Malware, die auf Ihrem Computer läuft, gelesen und gestohlen werden könnten.</value>
   </data>
   <data name="_ChangePasswordForm_machineCheckbox_" xml:space="preserve">
-    <value>Encrypt to only be useable on this computer</value>
+    <value>Verschlüsseln, damit sie nur auf diesem Computer verwendet werden können</value>
   </data>
   <data name="_ChangePasswordForm_machineLabel_" xml:space="preserve">
-    <value>Additionally, you can protect and encrypt your data using the built-in Windows account encryption. This will lock your authenticators to this computer or user so they cannot be opened even if the files are copied. You MUST turn this off if you are going to reformat your disk, re-install Windows or delete this user account.</value>
+    <value>Zusätzlich können Sie Ihre Daten mit der integrierten Windows-Kontoverschlüsselung schützen und verschlüsseln. Dadurch werden Ihre Authentifikatoren für diesen Computer oder Benutzer gesperrt, so dass sie nicht geöffnet werden können, selbst wenn die Dateien kopiert werden. Sie MÜSSEN diese Funktion deaktivieren, wenn Sie Ihre Festplatte neu formatieren, Windows neu installieren oder dieses Benutzerkonto löschen wollen.</value>
   </data>
   <data name="_ChangePasswordForm_okButton_" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="_ChangePasswordForm_passwordCheckbox_" xml:space="preserve">
-    <value>Protect with my own password</value>
+    <value>Mit eigenem Kennwort schützen</value>
   </data>
   <data name="_ChangePasswordForm_passwordFieldLabel_" xml:space="preserve">
-    <value>Password</value>
+    <value>Kennwort</value>
   </data>
   <data name="_ChangePasswordForm_passwordLabel_" xml:space="preserve">
-    <value>Your authenticators will be encrypted using your own password and you will need to enter your password to open WinAuth. Your authenticators will be inaccessible if you forget your password and you do not have a backup.</value>
+    <value>Ihre Authentifikatoren werden mit Ihrem eigenen Kennwort verschlüsselt und Sie müssen Ihr Kennwort eingeben, um WinAuth zu öffnen. Ihre Authentifikatoren sind unzugänglich, wenn Sie Ihr Kennwort vergessen und keine Sicherungskopie haben.</value>
   </data>
   <data name="_ChangePasswordForm_userCheckbox_" xml:space="preserve">
-    <value>And only by the current user on this computer</value>
+    <value>Und nur durch den aktuellen Benutzer auf diesem Computer</value>
   </data>
   <data name="_ChangePasswordForm_verifyFieldLabel_" xml:space="preserve">
-    <value>Verify</value>
+    <value>Verifizieren</value>
   </data>
   <data name="_ExceptionForm_" xml:space="preserve">
     <value>WinAuth Error</value>
   </data>
   <data name="_ExceptionForm_continueButton_" xml:space="preserve">
-    <value>Continue</value>
+    <value>Weiter</value>
   </data>
   <data name="_ExceptionForm_detailsButton_" xml:space="preserve">
-    <value>Show Details</value>
+    <value>Details anzeigen</value>
   </data>
   <data name="_ExceptionForm_errorLabel_" xml:space="preserve">
-    <value>An error has occured in WinAuth.
+    <value>Es ist ein Fehler in WinAuth aufgetreten.
 
 {0}
 
@@ -194,7 +194,7 @@ It would help if you can submit this information so we can investigate the crash
 If you are happy to send this information please either click Send Error Report or you can click Show Details and manually copy the text and file a bug report at https://github.com/winauth/winauth/issues.</value>
   </data>
   <data name="_ExceptionForm_quitButton_" xml:space="preserve">
-    <value>Quit</value>
+    <value>Exit</value>
   </data>
   <data name="_ExceptionForm_reportButton_" xml:space="preserve">
     <value>Send Error Report</value>
@@ -203,28 +203,28 @@ If you are happy to send this information please either click Send Error Report 
     <value>Enter Password</value>
   </data>
   <data name="_GetPasswordForm_cancelButton_" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Abbrechen</value>
   </data>
   <data name="_GetPasswordForm_okButton_" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="_GetPasswordForm_passwordField_" xml:space="preserve">
-    <value>password</value>
+    <value>passwort</value>
   </data>
   <data name="_SetPasswordForm_" xml:space="preserve">
-    <value>Set Password</value>
+    <value>Enter Password</value>
   </data>
   <data name="_SetPasswordForm_cancelButton_" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Abbrechen</value>
   </data>
   <data name="_SetPasswordForm_okButton_" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="_SetPasswordForm_passwordField_" xml:space="preserve">
-    <value>Password</value>
+    <value>Passwort</value>
   </data>
   <data name="_SetPasswordForm_setPasswordLabel_" xml:space="preserve">
-    <value>Enter a password to protect this authenticator or leave blank to remove it</value>
+    <value>Geben Sie ein Kennwort zum Schutz dieses Authentifikators ein oder lassen Sie es leer, um es zu entfernen.</value>
   </data>
   <data name="_SetPasswordForm_showCheckbox_" xml:space="preserve">
     <value>Show</value>
@@ -257,111 +257,110 @@ If you are happy to send this information please either click Send Error Report 
     <value>Cancel</value>
   </data>
   <data name="_SetShortcutKeyForm_injectRadioButton_" xml:space="preserve">
-    <value>Enter code into current window or one called...</value>
+    <value>Geben Sie den Code in das aktuelle Fenster oder in ein Fenster namens...</value>
   </data>
   <data name="_SetShortcutKeyForm_introLabel_" xml:space="preserve">
-    <value>Select a shortcut key and action</value>
+    <value>Wählen Sie ein Tastenkürzel und eine Aktion</value>
   </data>
   <data name="_SetShortcutKeyForm_keyLabel_" xml:space="preserve">
-    <value>Key</value>
+    <value>Taste</value>
   </data>
   <data name="_SetShortcutKeyForm_notifyRadioButton_" xml:space="preserve">
-    <value>Show a notification</value>
+    <value>Eine Benachrichtigung anzeigen</value>
   </data>
   <data name="_SetShortcutKeyForm_okButton_" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="_SetShortcutKeyForm_pasteRadioButton_" xml:space="preserve">
-    <value>Copy code to the clipboard</value>
+    <value>Code in die Zwischenablage kopieren</value>
   </data>
   <data name="_UnprotectPasswordForm_" xml:space="preserve">
     <value>{0}</value>
   </data>
   <data name="_UnprotectPasswordForm_cancelButton_" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Abbrechen</value>
   </data>
   <data name="_UnprotectPasswordForm_okButton_" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="_UnprotectPasswordForm_passwordField_" xml:space="preserve">
-    <value>Password</value>
+    <value>Passwort</value>
   </data>
   <data name="_WinAuthForm_addAuthenticatorButton_" xml:space="preserve">
-    <value>Add</value>
+    <value>Hinzufügen</value>
   </data>
   <data name="_WinAuthForm_introLabel_" xml:space="preserve">
-    <value>Click the "Add" button to create or import your authenticator</value>
+    <value>Klicken Sie auf die Schaltfläche "Hinzufügen", um Ihren Authentifikator zu erstellen oder zu importieren.</value>
   </data>
   <data name="_WinAuthForm_passwordButton_" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="_WinAuthForm_passwordLabel_" xml:space="preserve">
-    <value>Password</value>
+    <value>Passwort</value>
   </data>
   <data name="AlreadyRunning" xml:space="preserve">
-    <value>{0} is already running.</value>
+    <value>{0}  läuft bereits.</value>
   </data>
   <data name="AuthenticatorNotImplemented" xml:space="preserve">
-    <value>Authenticator not implemented</value>
+    <value>Authenticator nicht implementiert</value>
   </data>
   <data name="AuthenticatorSyncError" xml:space="preserve">
-    <value>Warning: unable to connect to {0} to set time correctly.
-
-Your code may not be correct</value>
+    <value>Warnung: Verbindung zu {0} kann nicht hergestellt werden, um die Zeit korrekt einzustellen.
+Ihr Code ist möglicherweise nicht korrekt</value>
   </data>
   <data name="AutoRefresh" xml:space="preserve">
     <value>Auto Refresh</value>
   </data>
   <data name="CannotFindConfigurationFile" xml:space="preserve">
-    <value>Unable to find your configuration file</value>
+    <value>Ihre Konfigurationsdatei kann nicht gefunden werden</value>
   </data>
   <data name="CannotLoadAuthenticator" xml:space="preserve">
-    <value>Unable to load authenticator from {0}</value>
+    <value>Authentifikator kann nicht von {0} geladen werden</value>
   </data>
   <data name="ChangeOrRemovePassword" xml:space="preserve">
-    <value>Change or Remove Password</value>
+    <value>Passwort ändern oder entfernen</value>
   </data>
   <data name="ClipboardInUse" xml:space="preserve">
-    <value>Unable to copy to the clipboard. Another application is probably using it.
+    <value>Es kann nicht in die Zwischenablage kopiert werden. Wahrscheinlich wird sie von einer anderen Anwendung verwendet.
 
-Try again?</value>
+Erneut versuchen?</value>
   </data>
   <data name="CopyCode" xml:space="preserve">
-    <value>Copy Code</value>
+    <value>Code kopieren</value>
   </data>
   <data name="CopyOnNewCode" xml:space="preserve">
-    <value>Copy on New Code</value>
+    <value>Auf neuen Code kopieren</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>Löschen</value>
   </data>
   <data name="DeleteAuthenticatorWarning" xml:space="preserve">
-    <value>Are you sure you want to delete this authenticator?
+    <value>Sind Sie sicher, dass Sie diesen Authentifikator löschen möchten?
 
-This will permanently remove it and you may no longer be able to access you account.</value>
+Dadurch wird er dauerhaft entfernt und Sie können möglicherweise nicht mehr auf Ihr Konto zugreifen.</value>
   </data>
   <data name="EnterPassword" xml:space="preserve">
-    <value>Please enter a password</value>
+    <value>Bitte geben Sie ein Passwort ein</value>
   </data>
   <data name="ErrorLoadingIconFile" xml:space="preserve">
-    <value>Error loading image file: {0}
+    <value>Fehler beim Laden der Bilddatei: {0}
 
-Do you want to try again?</value>
+Möchten Sie es noch einmal versuchen?</value>
   </data>
   <data name="ErrorOccured" xml:space="preserve">
-    <value>An error has occurred</value>
+    <value>Es ist ein Fehler aufgetreten</value>
   </data>
   <data name="ErrorReportSubmitted" xml:space="preserve">
-    <value>Thank you. Your error report has been submitted.</value>
+    <value>Wir danken Ihnen. Ihr Fehlerbericht wurde übermittelt.</value>
   </data>
   <data name="ErrorSendingErrorReport" xml:space="preserve">
-    <value>Unable to send your error report</value>
+    <value>Sie können Ihren Fehlerbericht nicht senden</value>
   </data>
   <data name="HideDetails" xml:space="preserve">
-    <value>Hide Details</value>
+    <value>Details ausblenden</value>
   </data>
   <data name="HotKeyNotAvailable" xml:space="preserve">
-    <value>The shortuct key combination is already in use or not available</value>
+    <value>Die Kurztastenkombination wird bereits verwendet oder ist nicht verfügbar</value>
   </data>
   <data name="Icon" xml:space="preserve">
     <value>Icon</value>
@@ -370,17 +369,17 @@ Do you want to try again?</value>
     <value>Auto</value>
   </data>
   <data name="InvalidPassword" xml:space="preserve">
-    <value>Invalid password</value>
+    <value>Ungültiges Passwort</value>
   </data>
   <data name="LoadIconImage" xml:space="preserve">
     <value>Load Icon Image</value>
   </data>
   <data name="LoadPreviousAuthenticator" xml:space="preserve">
-    <value>You have an authenticator from a previous version of WinAuth ({0}).
+    <value>Sie haben einen Authentifikator aus einer früheren Version von WinAuth ({0}).
 
-You can either import it now or use the 'Add' button to import it later.
+Sie können ihn entweder jetzt importieren oder die Schaltfläche "Hinzufügen" verwenden, um ihn später zu importieren.
 
-Would you like to import your previous authenticator now?</value>
+Möchten Sie Ihren früheren Authentifikator jetzt importieren?</value>
   </data>
   <data name="MenuAbout" xml:space="preserve">
     <value>About</value>
@@ -392,7 +391,7 @@ Would you like to import your previous authenticator now?</value>
     <value>Auto Size</value>
   </data>
   <data name="MenuChangeProtection" xml:space="preserve">
-    <value>Change Password</value>
+    <value>Passwort ändern</value>
   </data>
   <data name="MenuExit" xml:space="preserve">
     <value>Exit</value>
@@ -407,10 +406,10 @@ Would you like to import your previous authenticator now?</value>
     <value>Portable</value>
   </data>
   <data name="MenuStartWithWindows" xml:space="preserve">
-    <value>Start With Windows</value>
+    <value>Mit Windows starten</value>
   </data>
   <data name="MenuUpdates" xml:space="preserve">
-    <value>Check for updates...</value>
+    <value>Nach Updates suchen...</value>
   </data>
   <data name="MenuUseSystemTrayIcon" xml:space="preserve">
     <value>Use System Tray Icon</value>
@@ -419,38 +418,38 @@ Would you like to import your previous authenticator now?</value>
     <value>Other</value>
   </data>
   <data name="OverwritePortableConfigFile" xml:space="preserve">
-    <value>{0} already exists.
+    <value>{0} existiert bereits.
 
-Do you want to overwrite it?</value>
+Möchten Sie es überschreiben?</value>
   </data>
   <data name="PasswordsDontMatch" xml:space="preserve">
-    <value>Passwords do not match</value>
+    <value>Passwörter stimmen nicht überein</value>
   </data>
   <data name="Rename" xml:space="preserve">
-    <value>Rename</value>
+    <value>Umbenennen</value>
   </data>
   <data name="SetPassword" xml:space="preserve">
-    <value>Set Password</value>
+    <value>Passwort setzen</value>
   </data>
   <data name="ShortcutKey" xml:space="preserve">
     <value>Shortcut Key</value>
   </data>
   <data name="ShowCode" xml:space="preserve">
-    <value>Show Code</value>
+    <value>Code anzeigen</value>
   </data>
   <data name="ShowSecretKey" xml:space="preserve">
-    <value>Show Secret Key</value>
+    <value>Geheimen Schlüssel anzeigen</value>
   </data>
   <data name="ShowSerialAndRestoreCode" xml:space="preserve">
-    <value>Show Serial &amp;&amp; Restore Code</value>
+    <value>Seriennummer anzeigen &amp;&amp; Code wiederherstellen</value>
   </data>
   <data name="ShowSerialKeyAndDeviceId" xml:space="preserve">
-    <value>Show Serial Key and Device ID</value>
+    <value>Serienschlüssel und Geräte-ID anzeigen</value>
   </data>
   <data name="SyncTime" xml:space="preserve">
     <value>Sync Time</value>
   </data>
   <data name="UnknownError" xml:space="preserve">
-    <value>An unknown error occured</value>
+    <value>Ein unbekannter Fehler ist aufgetreten</value>
   </data>
 </root>

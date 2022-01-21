@@ -131,7 +131,7 @@
             this.htmlPanel3.AutoScrollMinSize = new System.Drawing.Size(412, 13);
             this.htmlPanel3.BackColor = System.Drawing.SystemColors.Window;
             this.htmlPanel3.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.htmlPanel3.Location = new System.Drawing.Point(54, 60);
+            this.htmlPanel3.Location = new System.Drawing.Point(6, 7);
             this.htmlPanel3.Name = "htmlPanel3";
             this.htmlPanel3.Size = new System.Drawing.Size(412, 23);
             this.htmlPanel3.TabIndex = 16;
@@ -145,9 +145,9 @@
             this.loadingPanel.HorizontalScrollbarBarColor = true;
             this.loadingPanel.HorizontalScrollbarHighlightOnWheel = false;
             this.loadingPanel.HorizontalScrollbarSize = 10;
-            this.loadingPanel.Location = new System.Drawing.Point(20, 60);
+            this.loadingPanel.Location = new System.Drawing.Point(20, 56);
             this.loadingPanel.Name = "loadingPanel";
-            this.loadingPanel.Size = new System.Drawing.Size(380, 100);
+            this.loadingPanel.Size = new System.Drawing.Size(641, 243);
             this.loadingPanel.TabIndex = 6;
             this.loadingPanel.VerticalScrollbarBarColor = true;
             this.loadingPanel.VerticalScrollbarHighlightOnWheel = false;
@@ -170,9 +170,9 @@
             this.yubiPanel.HorizontalScrollbarBarColor = true;
             this.yubiPanel.HorizontalScrollbarHighlightOnWheel = false;
             this.yubiPanel.HorizontalScrollbarSize = 10;
-            this.yubiPanel.Location = new System.Drawing.Point(20, 60);
+            this.yubiPanel.Location = new System.Drawing.Point(20, 68);
             this.yubiPanel.Name = "yubiPanel";
-            this.yubiPanel.Size = new System.Drawing.Size(380, 100);
+            this.yubiPanel.Size = new System.Drawing.Size(556, 156);
             this.yubiPanel.TabIndex = 5;
             this.yubiPanel.VerticalScrollbarBarColor = true;
             this.yubiPanel.VerticalScrollbarHighlightOnWheel = false;
@@ -215,9 +215,9 @@
             this.passwordPanel.HorizontalScrollbarBarColor = true;
             this.passwordPanel.HorizontalScrollbarHighlightOnWheel = false;
             this.passwordPanel.HorizontalScrollbarSize = 10;
-            this.passwordPanel.Location = new System.Drawing.Point(20, 60);
+            this.passwordPanel.Location = new System.Drawing.Point(20, 61);
             this.passwordPanel.Name = "passwordPanel";
-            this.passwordPanel.Size = new System.Drawing.Size(380, 100);
+            this.passwordPanel.Size = new System.Drawing.Size(553, 173);
             this.passwordPanel.TabIndex = 4;
             this.passwordPanel.VerticalScrollbarBarColor = true;
             this.passwordPanel.VerticalScrollbarHighlightOnWheel = false;
@@ -267,9 +267,9 @@
             // 
             // introLabel
             // 
-            this.introLabel.Location = new System.Drawing.Point(23, 76);
+            this.introLabel.Location = new System.Drawing.Point(23, 67);
             this.introLabel.Name = "introLabel";
-            this.introLabel.Size = new System.Drawing.Size(377, 35);
+            this.introLabel.Size = new System.Drawing.Size(298, 95);
             this.introLabel.TabIndex = 3;
             this.introLabel.Text = "Click the \"Add\" button to create or import your authenticator";
             this.introLabel.Visible = false;
@@ -277,15 +277,15 @@
             // commandPanel
             // 
             this.commandPanel.Controls.Add(this.optionsButton);
-            this.commandPanel.Controls.Add(this.htmlPanel3);
             this.commandPanel.Controls.Add(this.addAuthenticatorButton);
+            this.commandPanel.Controls.Add(this.htmlPanel3);
             this.commandPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.commandPanel.HorizontalScrollbarBarColor = true;
             this.commandPanel.HorizontalScrollbarHighlightOnWheel = false;
             this.commandPanel.HorizontalScrollbarSize = 10;
-            this.commandPanel.Location = new System.Drawing.Point(20, 144);
+            this.commandPanel.Location = new System.Drawing.Point(20, 350);
             this.commandPanel.Name = "commandPanel";
-            this.commandPanel.Size = new System.Drawing.Size(380, 79);
+            this.commandPanel.Size = new System.Drawing.Size(644, 63);
             this.commandPanel.TabIndex = 1;
             this.commandPanel.VerticalScrollbarBarColor = true;
             this.commandPanel.VerticalScrollbarHighlightOnWheel = false;
@@ -299,7 +299,7 @@
             this.optionsButton.BackColor = System.Drawing.SystemColors.ControlLight;
             this.optionsButton.BackgroundImage = global::WinAuth.Properties.Resources.OptionsIcon;
             this.optionsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.optionsButton.Location = new System.Drawing.Point(349, 52);
+            this.optionsButton.Location = new System.Drawing.Point(613, 36);
             this.optionsButton.Name = "optionsButton";
             this.optionsButton.Size = new System.Drawing.Size(28, 23);
             this.optionsButton.TabIndex = 0;
@@ -309,9 +309,9 @@
             // addAuthenticatorButton
             // 
             this.addAuthenticatorButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.addAuthenticatorButton.Location = new System.Drawing.Point(9, 52);
+            this.addAuthenticatorButton.Location = new System.Drawing.Point(9, 36);
             this.addAuthenticatorButton.Name = "addAuthenticatorButton";
-            this.addAuthenticatorButton.Size = new System.Drawing.Size(42, 23);
+            this.addAuthenticatorButton.Size = new System.Drawing.Size(97, 23);
             this.addAuthenticatorButton.TabIndex = 0;
             this.addAuthenticatorButton.Text = "Add";
             this.addAuthenticatorButton.UseSelectable = true;
@@ -337,7 +337,7 @@
             this.authenticatorList.Name = "authenticatorList";
             this.authenticatorList.ReadOnly = false;
             this.authenticatorList.SelectionMode = System.Windows.Forms.SelectionMode.None;
-            this.authenticatorList.Size = new System.Drawing.Size(380, 125);
+            this.authenticatorList.Size = new System.Drawing.Size(644, 243);
             this.authenticatorList.TabIndex = 0;
             this.authenticatorList.TabStop = false;
             this.authenticatorList.Visible = false;
@@ -350,7 +350,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Forms.MetroFormBorderStyle.FixedSingle;
-            this.ClientSize = new System.Drawing.Size(420, 243);
+            this.ClientSize = new System.Drawing.Size(684, 433);
             this.Controls.Add(this.loadingPanel);
             this.Controls.Add(this.yubiPanel);
             this.Controls.Add(this.passwordPanel);
@@ -360,12 +360,12 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1620, 1080);
-            this.MinimumSize = new System.Drawing.Size(300, 180);
+            this.MinimumSize = new System.Drawing.Size(500, 250);
             this.Name = "WinAuthForm";
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.None;
             this.StyleManager = this.metroStyleManager;
-            this.Text = "WinAuth";
+            this.Text = "WinAuth for Imperial";
             this.TopMost = true;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WinAuthForm_FormClosing);
             this.Load += new System.EventHandler(this.WinAuthForm_Load);

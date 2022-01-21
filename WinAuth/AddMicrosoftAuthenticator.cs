@@ -369,5 +369,15 @@ namespace WinAuth
         {
 
         }
+
+        private void newAuthenticatorProgress_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void codeField_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -644,20 +644,20 @@ namespace WinAuth
 		{
 			if (m_initOnce == false)
 			{
-#if BETA
-				string betaversion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
-				string betaConfirmed = WinAuthHelper.ReadRegistryValue(WINAUTHREGKEY_BETAWARNING, string.Empty) as string; // this.Config.ReadSetting(WINAUTHREGKEY_BETAWARNING, null) as string;
-				if (string.Compare(betaConfirmed, betaversion) != 0)
-				{
-					if (new BetaForm().ShowDialog(this) != DialogResult.OK)
-					{
-						this.Close();
-						return;
-					}
+//#if BETA
+//				string betaversion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString(3);
+//				string betaConfirmed = WinAuthHelper.ReadRegistryValue(WINAUTHREGKEY_BETAWARNING, string.Empty) as string; // this.Config.ReadSetting(WINAUTHREGKEY_BETAWARNING, null) as string;
+//				if (string.Compare(betaConfirmed, betaversion) != 0)
+//				{
+//					if (new BetaForm().ShowDialog(this) != DialogResult.OK)
+//					{
+//						this.Close();
+//						return;
+//					}
 
-					WinAuthHelper.WriteRegistryValue(WINAUTHREGKEY_BETAWARNING, betaversion);
-				}
-#endif
+//					WinAuthHelper.WriteRegistryValue(WINAUTHREGKEY_BETAWARNING, betaversion);
+//				}
+//#endif
 
 				// hook into System time change event
 				Microsoft.Win32.SystemEvents.TimeChanged += new EventHandler(SystemEvents_TimeChanged);

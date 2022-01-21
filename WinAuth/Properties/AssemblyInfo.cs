@@ -6,11 +6,11 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WinAuth")]
+[assembly: AssemblyTitle("WinAuth for Imperial")]
 [assembly: AssemblyDescription("WinAuth - The Windows Authenticator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WinAuth")]
+[assembly: AssemblyCompany("Imperial Logistics")]
+[assembly: AssemblyProduct("WinAuth for Imperial")]
 [assembly: AssemblyCopyright("Copyright © 2016. Colin Mackie. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

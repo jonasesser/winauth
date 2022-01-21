@@ -45,13 +45,15 @@ namespace WinAuth
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.htmlPanel3 = new MetroFramework.Drawing.Html.HtmlPanel();
             this.htmlPanel4 = new MetroFramework.Drawing.Html.HtmlPanel();
+            this.htmlPanel6 = new MetroFramework.Drawing.Html.HtmlPanel();
+            this.htmlPanel5 = new MetroFramework.Drawing.Html.HtmlPanel();
             ((System.ComponentModel.ISupportInitialize)(this.icon3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // newAuthenticatorProgress
             // 
-            this.newAuthenticatorProgress.Location = new System.Drawing.Point(401, 481);
+            this.newAuthenticatorProgress.Location = new System.Drawing.Point(401, 560);
             this.newAuthenticatorProgress.Maximum = 30;
             this.newAuthenticatorProgress.Minimum = 1;
             this.newAuthenticatorProgress.Name = "newAuthenticatorProgress";
@@ -60,21 +62,23 @@ namespace WinAuth
             this.newAuthenticatorProgress.TabIndex = 9;
             this.newAuthenticatorProgress.Value = 1;
             this.newAuthenticatorProgress.Visible = false;
+            this.newAuthenticatorProgress.Click += new System.EventHandler(this.newAuthenticatorProgress_Click);
             // 
             // codeField
             // 
             this.codeField.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.codeField.Location = new System.Drawing.Point(401, 453);
+            this.codeField.Location = new System.Drawing.Point(401, 532);
             this.codeField.Multiline = true;
             this.codeField.Name = "codeField";
             this.codeField.SecretMode = false;
             this.codeField.Size = new System.Drawing.Size(158, 26);
             this.codeField.SpaceOut = 3;
             this.codeField.TabIndex = 8;
+            this.codeField.TextChanged += new System.EventHandler(this.codeField_TextChanged);
             // 
             // verifyAuthenticatorButton
             // 
-            this.verifyAuthenticatorButton.Location = new System.Drawing.Point(400, 365);
+            this.verifyAuthenticatorButton.Location = new System.Drawing.Point(400, 430);
             this.verifyAuthenticatorButton.Name = "verifyAuthenticatorButton";
             this.verifyAuthenticatorButton.Size = new System.Drawing.Size(159, 23);
             this.verifyAuthenticatorButton.TabIndex = 5;
@@ -86,7 +90,7 @@ namespace WinAuth
             // 
             this.secretCodeField.AllowDrop = true;
             this.secretCodeField.CausesValidation = false;
-            this.secretCodeField.Location = new System.Drawing.Point(279, 319);
+            this.secretCodeField.Location = new System.Drawing.Point(279, 384);
             this.secretCodeField.MaxLength = 32767;
             this.secretCodeField.Name = "secretCodeField";
             this.secretCodeField.PasswordChar = '\0';
@@ -100,7 +104,7 @@ namespace WinAuth
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.okButton.Location = new System.Drawing.Point(855, 507);
+            this.okButton.Location = new System.Drawing.Point(855, 626);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(75, 23);
             this.okButton.TabIndex = 7;
@@ -112,7 +116,7 @@ namespace WinAuth
             // 
             this.cancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.cancelButton.Location = new System.Drawing.Point(936, 507);
+            this.cancelButton.Location = new System.Drawing.Point(936, 626);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(75, 23);
             this.cancelButton.TabIndex = 8;
@@ -148,12 +152,12 @@ namespace WinAuth
             // htmlPanel1
             // 
             this.htmlPanel1.AutoScroll = true;
-            this.htmlPanel1.AutoScrollMinSize = new System.Drawing.Size(561, 189);
+            this.htmlPanel1.AutoScrollMinSize = new System.Drawing.Size(561, 240);
             this.htmlPanel1.BackColor = System.Drawing.SystemColors.Window;
             this.htmlPanel1.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.htmlPanel1.Location = new System.Drawing.Point(465, 119);
             this.htmlPanel1.Name = "htmlPanel1";
-            this.htmlPanel1.Size = new System.Drawing.Size(561, 189);
+            this.htmlPanel1.Size = new System.Drawing.Size(561, 263);
             this.htmlPanel1.TabIndex = 14;
             this.htmlPanel1.Text = resources.GetString("htmlPanel1.Text");
             this.htmlPanel1.Click += new System.EventHandler(this.htmlPanel1_Click);
@@ -161,12 +165,12 @@ namespace WinAuth
             // htmlPanel2
             // 
             this.htmlPanel2.AutoScroll = true;
-            this.htmlPanel2.AutoScrollMinSize = new System.Drawing.Size(463, 189);
+            this.htmlPanel2.AutoScrollMinSize = new System.Drawing.Size(463, 223);
             this.htmlPanel2.BackColor = System.Drawing.SystemColors.Window;
             this.htmlPanel2.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.htmlPanel2.Location = new System.Drawing.Point(8, 119);
             this.htmlPanel2.Name = "htmlPanel2";
-            this.htmlPanel2.Size = new System.Drawing.Size(463, 194);
+            this.htmlPanel2.Size = new System.Drawing.Size(463, 243);
             this.htmlPanel2.TabIndex = 15;
             this.htmlPanel2.Text = resources.GetString("htmlPanel2.Text");
             // 
@@ -196,27 +200,53 @@ namespace WinAuth
             // htmlPanel3
             // 
             this.htmlPanel3.AutoScroll = true;
-            this.htmlPanel3.AutoScrollMinSize = new System.Drawing.Size(555, 17);
+            this.htmlPanel3.AutoScrollMinSize = new System.Drawing.Size(524, 17);
             this.htmlPanel3.BackColor = System.Drawing.SystemColors.Window;
             this.htmlPanel3.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.htmlPanel3.Location = new System.Drawing.Point(487, 410);
+            this.htmlPanel3.Location = new System.Drawing.Point(487, 475);
             this.htmlPanel3.Name = "htmlPanel3";
-            this.htmlPanel3.Size = new System.Drawing.Size(555, 23);
+            this.htmlPanel3.Size = new System.Drawing.Size(524, 21);
             this.htmlPanel3.TabIndex = 15;
-            this.htmlPanel3.Text = "<div style=\"font-family:verdana;font-size: 10pt;\">8. Geben Sie den folgenden Code" +
-    " ein, um zu überprüfen, ob er funktioniert<div>";
+            this.htmlPanel3.Text = "<div style=\"font-family:verdana;font-size: 10pt;\">9. Klicken Sie auf <b>weiter</b" +
+    "><div>";
             // 
             // htmlPanel4
             // 
-            this.htmlPanel4.AutoScrollMinSize = new System.Drawing.Size(633, 17);
+            this.htmlPanel4.AutoScroll = true;
+            this.htmlPanel4.AutoScrollMinSize = new System.Drawing.Size(355, 17);
             this.htmlPanel4.BackColor = System.Drawing.SystemColors.Window;
             this.htmlPanel4.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.htmlPanel4.Location = new System.Drawing.Point(30, 410);
+            this.htmlPanel4.Location = new System.Drawing.Point(29, 475);
             this.htmlPanel4.Name = "htmlPanel4";
-            this.htmlPanel4.Size = new System.Drawing.Size(355, 36);
+            this.htmlPanel4.Size = new System.Drawing.Size(355, 21);
             this.htmlPanel4.TabIndex = 16;
-            this.htmlPanel4.Text = "<div style=\"font-family:verdana;font-size: 10pt;\">8. Enter the following code to " +
-    "verify it is working<div>";
+            this.htmlPanel4.Text = "<div style=\"font-family:verdana;font-size: 10pt;\">9. Click on <b>next</b><div>";
+            // 
+            // htmlPanel6
+            // 
+            this.htmlPanel6.AutoScroll = true;
+            this.htmlPanel6.AutoScrollMinSize = new System.Drawing.Size(355, 17);
+            this.htmlPanel6.BackColor = System.Drawing.SystemColors.Window;
+            this.htmlPanel6.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.htmlPanel6.Location = new System.Drawing.Point(29, 503);
+            this.htmlPanel6.Name = "htmlPanel6";
+            this.htmlPanel6.Size = new System.Drawing.Size(355, 36);
+            this.htmlPanel6.TabIndex = 18;
+            this.htmlPanel6.Text = "<div style=\"font-family:verdana;font-size: 10pt;\">10. Enter the following code an" +
+    "d click on <b>next</b><div>";
+            // 
+            // htmlPanel5
+            // 
+            this.htmlPanel5.AutoScrollMinSize = new System.Drawing.Size(524, 17);
+            this.htmlPanel5.BackColor = System.Drawing.SystemColors.Window;
+            this.htmlPanel5.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.htmlPanel5.Location = new System.Drawing.Point(487, 503);
+            this.htmlPanel5.Name = "htmlPanel5";
+            this.htmlPanel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.htmlPanel5.Size = new System.Drawing.Size(524, 23);
+            this.htmlPanel5.TabIndex = 19;
+            this.htmlPanel5.Text = "<div style=\"font-family:verdana;font-size: 10pt;\">10. Geben Sie den folgenden Cod" +
+    "e ein und klicken Sie auf <b>weiter</b><div>";
             // 
             // AddMicrosoftAuthenticator
             // 
@@ -225,7 +255,9 @@ namespace WinAuth
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Forms.MetroFormBorderStyle.FixedSingle;
             this.CancelButton = this.cancelButton;
-            this.ClientSize = new System.Drawing.Size(1034, 553);
+            this.ClientSize = new System.Drawing.Size(1034, 672);
+            this.Controls.Add(this.htmlPanel5);
+            this.Controls.Add(this.htmlPanel6);
             this.Controls.Add(this.htmlPanel4);
             this.Controls.Add(this.htmlPanel3);
             this.Controls.Add(this.icon3);
@@ -269,5 +301,7 @@ namespace WinAuth
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Drawing.Html.HtmlPanel htmlPanel3;
         private MetroFramework.Drawing.Html.HtmlPanel htmlPanel4;
+        private MetroFramework.Drawing.Html.HtmlPanel htmlPanel6;
+        private MetroFramework.Drawing.Html.HtmlPanel htmlPanel5;
     }
 }
